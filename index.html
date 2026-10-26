@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wybór Grup Planu Zajęć - Teinograf</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Wybór Grup Zajęciowych</h1>
+            <p>Dorian TI inż sem 5 (Właściciel: NamelessFromPoland)</p>
+        </header>
+
+        <form id="groupSelectionForm">
+            <!-- Bazy Danych -->
+            <section class="subject-card">
+                <h2>Bazy Danych</h2>
+                <div class="type-group">
+                    <h3>Wykład</h3>
+                    <p class="admin-note">Wszyscy studenci kierunku uczęszczają razem.</p>
+                    <label class="radio-label">
+                        <input type="radio" name="Bazy Danych_Wykład" value="1" checked>
+                        <span>Grupa 1</span>
+                    </label>
+                </div>
+            </section>
+
+            <!-- Electromagnetic Compatibility -->
+            <section class="subject-card">
+                <h2>Electromagnetic Compatibility</h2>
+                <div class="type-group">
+                    <h3>Wykład</h3>
+                    <p class="admin-note">Wszyscy studenci kierunku uczęszczają razem.</p>
+                    <label class="radio-label">
+                        <input type="radio" name="Electromagnetic Compatibility_Wykład" value="1" checked>
+                        <span>Grupa 1</span>
+                    </label>
+                </div>
+            </section>
+
+            <!-- Komputerowo wspomagane Projektowanie Układów Cyfrowych -->
+            <section class="subject-card">
+                <h2>Komputerowo wspomagane Projektowanie Układów Cyfrowych</h2>
+                <div class="type-group">
+                    <h3>Laboratorium + Projekt</h3>
+                    <p class="admin-note">Grupa 1: Środa 10:30 (s. 715) | Grupa 2: Środa 12:15 (s. 715).</p>
+                    <label class="radio-label">
+                        <input type="radio" name="Komputerowo wspomagane Projektowanie Układów Cyfrowych_Laboratorium + Projekt" value="1" checked>
+                        <span>Grupa 1</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="Komputerowo wspomagane Projektowanie Układów Cyfrowych_Laboratorium + Projekt" value="2">
+                        <span>Grupa 2</span>
+                    </label>
+                </div>
+                <div class="type-group">
+                    <h3>Wykład</h3>
+                    <p class="admin-note">Wszyscy studenci kierunku uczęszczają razem.</p>
+                    <label class="radio-label">
+                        <input type="radio" name="Komputerowo wspomagane Projektowanie Układów Cyfrowych_Wykład" value="1" checked>
+                        <span>Grupa 1</span>
+                    </label>
+                </div>
+            </section>
+
+            <!-- Projektowanie Sieci Telekomunikacyjnych -->
+            <section class="subject-card">
+                <h2>Projektowanie Sieci Telekomunikacyjnych</h2>
+                <div class="type-group">
+                    <h3>Projekt</h3>
+                    <p class="admin-note">Wybierz swoją grupę według systemu USOS.</p>
+                    <label class="radio-label">
+                        <input type="radio" name="Projektowanie Sieci Telekomunikacyjnych_Projekt" value="1" checked>
+                        <span>Grupa 1</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="Projektowanie Sieci Telekomunikacyjnych_Projekt" value="2">
+                        <span>Grupa 2</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="Projektowanie Sieci Telekomunikacyjnych_Projekt" value="3">
+                        <span>Grupa 3</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="Projektowanie Sieci Telekomunikacyjnych_Projekt" value="4">
+                        <span>Grupa 4</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="Projektowanie Sieci Telekomunikacyjnych_Projekt" value="5">
+                        <span>Grupa 5</span>
+                    </label>
+                </div>
+            </section>
+
+            <!-- Sieci Komputerowe -->
+            <section class="subject-card">
+                <h2>Sieci Komputerowe</h2>
+                <div class="type-group">
+                    <h3>Laboratorium</h3>
+                    <p class="admin-note">Wybierz swoją grupę według systemu USOS.</p>
+                    <label class="radio-label"><input type="radio" name="Sieci Komputerowe_Laboratorium" value="1" checked> <span>Grupa 1</span></label>
+                    <label class="radio-label"><input type="radio" name="Sieci Komputerowe_Laboratorium" value="2"> <span>Grupa 2</span></label>
+                    <label class="radio-label"><input type="radio" name="Sieci Komputerowe_Laboratorium" value="3"> <span>Grupa 3</span></label>
+                    <label class="radio-label"><input type="radio" name="Sieci Komputerowe_Laboratorium" value="4"> <span>Grupa 4</span></label>
+                    <label class="radio-label"><input type="radio" name="Sieci Komputerowe_Laboratorium" value="5"> <span>Grupa 5</span></label>
+                </div>
+                <!--<div class="type-group">
+                    <h3>Laboratorium2</h3>
+                    <p class="admin-note">Termin zaliczeniowy / poprawkowy.</p>
+                    <label class="radio-label"><input type="radio" name="Sieci Komputerowe_Laboratorium2" value="1" checked> <span>Grupa 1</span></label>
+                </div> -->
+                <div class="type-group">
+                    <h3>Wykład</h3>
+                    <p class="admin-note">Wszyscy studenci kierunku uczęszczają razem.</p>
+                    <label class="radio-label"><input type="radio" name="Sieci Komputerowe_Wykład" value="1" checked> <span>Grupa 1</span></label>
+                </div>
+            </section>
+
+            <!-- Sieci Sensorowe -->
+            <section class="subject-card">
+                <h2>Sieci Sensorowe</h2>
+                <div class="type-group">
+                    <h3>Laboratorium</h3>
+                    <p class="admin-note">Grupa 1 - sekcje od 1 do 6, a grupa 2 - sekcje od 7 do 12.</p>
+                    <label class="radio-label"><input type="radio" name="Sieci Sensorowe_Laboratorium" value="1" checked> <span>Grupa 1</span></label>
+                    <label class="radio-label"><input type="radio" name="Sieci Sensorowe_Laboratorium" value="2"> <span>Grupa 2</span></label>
+                </div>
+            </section>
+
+            <!-- Systemy Mikroprocesorowe i Wbudowane -->
+            <section class="subject-card">
+                <h2>Systemy Mikroprocesorowe i Wbudowane</h2>
+                <div class="type-group">
+                    <h3>Laboratorium</h3>
+                    <p class="admin-note">Wybierz swoją grupę według systemu USOS.</p>
+                    <label class="radio-label"><input type="radio" name="Systemy Mikroprocesorowe i Wbudowane_Laboratorium" value="1" checked> <span>Grupa 1</span></label>
+                    <label class="radio-label"><input type="radio" name="Systemy Mikroprocesorowe i Wbudowane_Laboratorium" value="2"> <span>Grupa 2</span></label>
+                    <label class="radio-label"><input type="radio" name="Systemy Mikroprocesorowe i Wbudowane_Laboratorium" value="3"> <span>Grupa 3</span></label>
+                    <label class="radio-label"><input type="radio" name="Systemy Mikroprocesorowe i Wbudowane_Laboratorium" value="4"> <span>Grupa 4</span></label>
+                    <label class="radio-label"><input type="radio" name="Systemy Mikroprocesorowe i Wbudowane_Laboratorium" value="5"> <span>Grupa 5</span></label>
+                </div>
+                <div class="type-group">
+                    <h3>Wykład</h3>
+                    <p class="admin-note">Wszyscy studenci kierunku uczęszczają razem.</p>
+                    <label class="radio-label"><input type="radio" name="Systemy Mikroprocesorowe i Wbudowane_Wykład" value="1" checked> <span>Grupa 1</span></label>
+                </div>
+            </section>
+
+            <!-- Systemy Operacyjne -->
+            <section class="subject-card">
+                <h2>Systemy Operacyjne</h2>
+                <div class="type-group">
+                    <h3>Laboratorium</h3>
+                    <p class="admin-note">Wybierz swoją grupę według systemu USOS.</p>
+                    <label class="radio-label"><input type="radio" name="Systemy Operacyjne_Laboratorium" value="1" checked> <span>Grupa 1</span></label>
+                    <label class="radio-label"><input type="radio" name="Systemy Operacyjne_Laboratorium" value="2"> <span>Grupa 2</span></label>
+                    <label class="radio-label"><input type="radio" name="Systemy Operacyjne_Laboratorium" value="3"> <span>Grupa 3</span></label>
+                    <label class="radio-label"><input type="radio" name="Systemy Operacyjne_Laboratorium" value="4"> <span>Grupa 4</span></label>
+                    <label class="radio-label"><input type="radio" name="Systemy Operacyjne_Laboratorium" value="5"> <span>Grupa 5</span></label>
+                </div>
+            </section>
+
+            <button type="button" id="generateBtn" class="btn-primary">Generuj Kod Identyfikacyjny</button>
+        </form>
+
+        <div class="result-box" id="resultBox" style="display: none;">
+            <label for="generatedCode">Twój kod konfiguracji grup do wklejenia w Teinograf:</label>
+            <div class="code-container">
+                <input type="text" id="generatedCode" readonly>
+                <button id="copyBtn" class="btn-secondary">Kopiuj</button>
+            </div>
+            <span id="copyFeedback" class="feedback-text"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

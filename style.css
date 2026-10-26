@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif; /* Słynna, surowa czcionka */
+}
+
+body {
+    background-color: #c0c0c0; /* Klasyczny szary kolor tła z Windows 95 */
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ececec;
+    padding: 15px;
+    border: 2px solid #000000; /* Prosta, gruba czarna ramka */
+    border-radius: 0; /* Brak jakichkolwiek zaokrągleń */
+    box-shadow: none; /* Brak nowoczesnych cieni */
+    width: 100%;
+    max-width: 650px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #000000; /* Przerywana linia w stylu dawnych stron */
+    padding-bottom: 8px;
+}
+
+h1 {
+    font-size: 1.4rem;
+    color: #0000cc; /* Klasyczny niebieski kolor nagłówków */
+    margin-bottom: 4px;
+}
+
+header p {
+    font-size: 0.85rem;
+    color: #333333;
+}
+
+.subject-card {
+    background-color: #ffffff;
+    border: 1px solid #808080; /* Szara ramka formularzowa */
+    border-radius: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.subject-card h2 {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 8px;
+    text-decoration: underline; /* Podkreślenie zamiast nowoczesnego designu */
+}
+
+.type-group {
+    margin-bottom: 8px;
+    padding-left: 4px;
+    border-left: none; /* Usunięto nowoczesny kolorowy pasek boczny */
+}
+
+.type-group h3 {
+    font-size: 0.9rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.admin-note {
+    font-size: 0.75rem;
+    color: #444444;
+    font-style: normal; /* Zwykły tekst zamiast kursywy */
+    margin: 2px 0 4px 0;
+}
+
+.radio-label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.radio-label input {
+    margin-right: 3px;
+    accent-color: initial;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #e1e1e1;
+    color: #000000;
+    border: 2px outset #ffffff; /* Efekt wypukłego przycisku z lat 90. */
+    padding: 8px;
+    border-radius: 0;
+    font-weight: normal;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: none; /* Brak płynnych animacji */
+}
+
+.btn-primary:active {
+    border-style: inset; /* Efekt wciśnięcia przycisku */
+}
+
+.btn-primary:hover {
+    background-color: #d4d4d4;
+}
+
+.result-box {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #000000;
+}
+
+.result-box label {
+    font-size: 0.8rem;
+    color: #000000;
+}
+
+.code-container {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.code-container input {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 4px;
+    border-radius: 0;
+    font-size: 0.85rem;
+    font-weight: normal;
+}
+
+.btn-secondary {
+    background-color: #e1e1e1;
+    color: #000000;
+    border: 2px outset #ffffff;
+    padding: 4px 10px;
+    border-radius: 0;
+    font-weight: normal;
+    cursor: pointer;
+    transition: none;
+}
+
+.btn-secondary:active {
+    border-style: inset;
+}
+
+.btn-secondary:hover {
+    background-color: #d4d4d4;
+}
+
+.feedback-text {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.75rem;
+    color: #006600;
+    min-height: 1.2em;
+}
